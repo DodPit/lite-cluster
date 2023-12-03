@@ -18,29 +18,35 @@ Utilize algum Software Etcher para montar uma imagem bootavel em Cartão SD.
 3. Uma vez dentro do dispositivo use as credenciais abaixo para logar. 
    - user: root
    - password: 0880
-   - ![Página Inicial](doc/img/initial_page.png)
+
+ ![Página Inicial](../../doc/img/initial_page.png)
 
 
 4. Execute o camando `armbian-config` e a interface gráfica irá iniciar.
-   - ![Menu Inicial](doc/img/menu_inicial.png)
+
+ ![Menu Inicial](../../doc/img/menu_inicial.png)
 
 4.1. Navegue até Personal
 
 4.2. Selecione a opção Hostname e mude para um nome desejado
-   - ![Hostname](doc/img/mudando_hostname.png)
+
+ ![Hostname](../../doc/img/mudando_hostname.png)
 
 4.3. Retorne até o menu Iniciar
 
 4.4. Entre na opçao *System*
 
 4.5. Selecione Install
-   - ![Hostname](doc/img/system.png)
+
+ ![Hostname](../../doc/img/system.png)
 
 4.6. Selecione a opção *Boot from eMMC - system on eMMC* 
-   - ![Hostname](doc/img/installation_option.png)
+
+ ![Hostname](../../doc/img/installation_option.png)
 
 4.7. Selecione *Yes* para formatar instalar.
-   - ![Hostname](doc/img/formatacao.png)
+
+ ![Hostname](../../doc/img/formatacao.png)
 
 5. Após a instalacao remova o cartao SD e reinicie o dispositivo 
 
@@ -72,7 +78,7 @@ copy_ssh_keys
 
 7. Altere o arquivo `/opt/spark/conf/workers` com os IPs corretos das máquinas trabalhadoras. 
 
-   - ![Hostname](doc/img/workers.png)
+ ![Hostname](../../doc/img/workers.png)
 
 
 ## Guia de Instalação Manual e Configuração do Cluster
