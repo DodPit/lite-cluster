@@ -7,10 +7,10 @@ Utilize algum Software Etcher para montar uma imagem bootavel em Cartão SD.
 
 1. 
    - Se instalação para máquina **Master**:
-      - Utilze o arquivo [lite_cluster_master.img.xz](https://)
+      - Utilze o arquivo [lite_cluster_master.img.xz](https://drive.google.com/file/d/18dazrNqwQx5tVECitnDNCjYSFm0H99re/view?usp=sharing)
 
    - Se instalação para máquina **Worker**:
-      - Utilze o arquivo [lite_cluster_worker.img.xz](https://)
+      - Utilze o arquivo [lite_cluster_worker.img.xz](https://drive.google.com/file/d/1q5L3imlSehf4521ruadpUEnwPPStL1Q4/view?usp=sharing)
 
 2. Insira o cartao SD no TVBox e reinicie o dispositivo. 
 
@@ -22,7 +22,7 @@ Utilize algum Software Etcher para montar uma imagem bootavel em Cartão SD.
  ![Página Inicial](../../doc/img/initial_page.png)
 
 
-4. Execute o camando `armbian-config` e a interface gráfica irá iniciar.
+4. Execute o comando `armbian-config` e a interface gráfica irá iniciar.
 
  ![Menu Inicial](../../doc/img/menu_inicial.png)
 
@@ -87,7 +87,7 @@ Tenha em mente que é mais simples utilizar o método de instalação seguido no
 Este guia fornece instruções passo a passo para configurar um ambiente de cluster incluindo Spark 3.4.1, CIFS para compartilhamento de arquivos, e Ganglia para monitoramento.
 
 ### Pré-requisitos
-- Todos os nós devem estar executando [Debian 12 Bookworm Armbian-Sunvell r69](https://).
+- Todos os nós devem estar executando [Debian 12 Bookworm Armbian-Sunvell r69](https://drive.google.com/file/d/1S5Kl2XLMg1UwKHLHF4XmK_1OGG31k8zO/view?usp=sharing).
 - O usuário deve ter privilégios de sudo em todos os nós.
 
 **Altere dentro dos Scripts os trechos referentes aos IPS do nó mestre e dos nós trabalhadores**

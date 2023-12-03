@@ -1,7 +1,7 @@
 # Spark Lite Cluster
 
 Este projeto oferece uma implementação Lite de um Cluster [Apache Spark](https://spark.apache.org/docs/3.4.1) e conta com um [CIFS File System](https://docs.kernel.org/admin-guide/cifs/index.html) para compartilhamento de arquivos em rede assim como [Ganglia](https://github.com/ganglia) para observabilidade. 
-Essa implementação foi aprensetada e publicada com sucesso no Seminário de Iniciação Científica do Litoral Norte (**ISSN 2674-6689**)
+Essa implementação foi apresentada e publicada no Seminário de Iniciação Científica do Litoral Norte (**ISSN 2674-6689**)
 
 [Processamento Distribuído na Borda: Um Estudo de Desafios e Oportunidades Utilizando Aparelhos de Tv Box Apreendidos pela Receita Federal](https://ocs.ifspcaraguatatuba.edu.br/sicln/xiii-sicln/paper/view/463)
 
