@@ -5,10 +5,19 @@ Essa implementação foi apresentada e publicada no Seminário de Iniciação Ci
 
 [Processamento Distribuído na Borda: Um Estudo de Desafios e Oportunidades Utilizando Aparelhos de Tv Box Apreendidos pela Receita Federal](https://ocs.ifspcaraguatatuba.edu.br/sicln/xiii-sicln/paper/view/463)
 
+Autores: 
+
+- [Daniel Lourenço](https://www.linkedin.com/in/daniel-lourenco19/)
+
+- [Samuel Barbosa](https://www.linkedin.com/in/samuel2pb/)
+
+
 
 ## Instalação
 
-Recomendamos o uso das **imagens prontas** pois o seu uso requer menos gerencialmento de dependências e Know-how sobre os assuntos tratados pelos scripts de instalação manual
+Este sistema é compatível com Arquiteturas do tipo ARMv7.
+
+Recomendamos o uso das **imagens prontas** pois o seu uso requer menos gerenciamento de dependências e Know-how acerca dos assuntos tratados pelos scripts de instalação manual
 
 [Guia de Instalação](scripts/setup/README.md)
 
