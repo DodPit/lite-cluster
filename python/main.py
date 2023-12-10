@@ -9,7 +9,7 @@ logging.basicConfig(level=logging.INFO,
                     format="%(asctime)s - %(levelname)s - %(message)s")
 
 PROJECT_ID = 'retail-engine'
-TMP_BUCKET = 'abinbev-tmp'
+TMP_BUCKET = 'tmp'
 SQL_PATH = "sql/"
 CREDENTIALS = ""
 GCS_DEST = "gs://dest"
@@ -33,7 +33,7 @@ def normalize_string(s):
 def main(factor):
 
     FILE_PATH_CHANNEL = (
-        "/mnt/cifs_shared/source/abi_bus_case1_beverage_channel_group_20210726.csv")
+        "/mnt/cifs_shared/source/channel_group_20210726.csv")
     FILE_PATH_SALES = (
         f"/mnt/cifs_shared/source/{factor}x_sales")
 
